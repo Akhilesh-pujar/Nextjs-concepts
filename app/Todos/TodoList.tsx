@@ -12,7 +12,7 @@ const fetchTodos = async ()=>{
 
 async function TodoList() {
     const todos = await fetchTodos();
-  return 
+  return (
     <>
      {todos.map((todo)=>{
       <p key={todo.id}>
@@ -20,7 +20,8 @@ async function TodoList() {
       </p>
      })}
       
-    </>;
+    </>
+  )
   
 }
 

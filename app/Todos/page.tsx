@@ -4,8 +4,9 @@ import TodoList from './TodoList'
 function Todos() {
   return (
     <div>
-        {/* @ts-ignore */}
+      {/* @ts-ignore */}
       <TodoList/>
+
     </div>
   )
 }
